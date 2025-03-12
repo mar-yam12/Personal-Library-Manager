@@ -1,0 +1,73 @@
+[
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "genre": "Self-help",
+      "read": true
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "genre": "Fiction",
+      "read": true
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "year": 2016,
+      "genre": "Productivity",
+      "read": false
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "genre": "Programming",
+      "read": true
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "year": 1997,
+      "genre": "Finance",
+      "read": false
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "genre": "Dystopian",
+      "read": true
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "genre": "History",
+      "read": false
+    },
+    {
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "year": 1997,
+      "genre": "Spirituality",
+      "read": true
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "year": 2011,
+      "genre": "Business",
+      "read": false
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "year": 1997,
+      "genre": "Fantasy",
+      "read": true
+    }
+  ]
+  
