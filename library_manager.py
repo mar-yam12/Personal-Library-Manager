@@ -1,7 +1,6 @@
 import streamlit as st
 import json
 import os
-from streamlit_apexjs import st_apexcharts
 
 # Page Styling
 st.set_page_config(
@@ -167,44 +166,6 @@ elif menu == "Statistics":
         st.write(f"📚 **Total Books:** {total_books}")
         st.write(f"📖 **Books Read:** {read_books} ({read_percentage:.2f}%)")
         st.write(f"📖 **Books Unread:** {unread_books} ({100 - read_percentage:.2f}%)")
-
-        st.subheader("📊 Read vs Unread Distribution")
-
-        
-        options = {
-            "chart": {
-                "background": "transparent",
-                "toolbar": {
-                    "show": False
-                }
-            },
-            "plotOptions": {
-                "pie": {
-                    "donut": {
-                        "size": "60%"
-                    }
-                }
-            },
-            "labels": ["Read", "Unread"],
-            "legend": {
-                "show": True,
-                "position": "bottom",
-                "horizontalAlign": "center",
-                "labels": {
-                    "colors": "#000000"
-                }
-            },
-            "dataLabels": {
-                "style": {
-                    "colors": ["#333333", "#333333"]
-                }
-            }
-        }
-
-        series = [read_percentage, 100 - read_percentage]
-
-        st_apexcharts(options=options, series=series, types="pie", width="400", title="Read vs Unread Distribution")
-        
     
     else:
         st.warning("⚠️ No books in the library yet.")
